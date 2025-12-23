@@ -22,14 +22,14 @@ Key Features:
 Ensure you have Python 3.9+ and Node.js installed.
 
 2. Setup Backend
-
+```bash
 cd server
 pip install -r requirements.txt
 # Initialize the model (train on default dataset)
 python train_model.py
 # Start the API
 uvicorn main:app --reload
-
+```
 
 3. Setup Frontend
 
