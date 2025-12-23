@@ -1,4 +1,4 @@
-🏦 AI Bank Campaign Recommendation System
+<h1>🏦 AI Bank Campaign Recommendation System</h1>
 
 An Intelligent Customer Segmentation & Recommendation Engine built for the Banking Sector.
 
