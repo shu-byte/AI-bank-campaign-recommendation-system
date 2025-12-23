@@ -1,35 +1,24 @@
 <h1>🏦 AI Bank Campaign Recommendation System</h1>
-
 An Intelligent Customer Segmentation & Recommendation Engine built for the Banking Sector.
 
-📌 Overview
-
+<h2>📌 Overview</h2>
 This system utilizes Unsupervised Machine Learning (K-Prototypes) to segment bank customers based on demographic and behavioral data. It then employs XGBoost & SHAP to provide explainable marketing strategies (Cross-Sell, Retention, Acquisition).
 
 Key Features:
+* Hybrid Clustering: Handles both numerical and categorical data naturally.
+* MLOps Pipeline: Supports automated retraining and hot-swapping of models via the UI.
+* Advanced Visualization: Uses t-SNE manifold learning to visualize high-dimensional customer clusters in 2D.
+* Explainable AI (XAI): Provides real-time SHAP value analysis for every prediction.
 
-Hybrid Clustering: Handles both numerical and categorical data naturally.
+<h2>🛠️ Tech Stack</h2>
+* Frontend: React.js, Recharts, Axios
+* Backend: FastAPI (Python), Uvicorn
+* Machine Learning: Scikit-Learn, KModes, XGBoost, SHAP
+* Data Processing: Pandas, NumPy
 
-MLOps Pipeline: Supports automated retraining and hot-swapping of models via the UI.
-
-Advanced Visualization: Uses t-SNE manifold learning to visualize high-dimensional customer clusters in 2D.
-
-Explainable AI (XAI): Provides real-time SHAP value analysis for every prediction.
-
-🛠️ Tech Stack
-
-Frontend: React.js, Recharts, Axios
-
-Backend: FastAPI (Python), Uvicorn
-
-Machine Learning: Scikit-Learn, KModes, XGBoost, SHAP
-
-Data Processing: Pandas, NumPy
-
-🚀 Quick Start
+<h2>🚀 Quick Start</h2>
 
 1. Prerequisites
-
 Ensure you have Python 3.9+ and Node.js installed.
 
 2. Setup Backend
@@ -63,14 +52,11 @@ CampaignV2/
     └── ...
 
 
-📊 Methodology
+<h2>📊 Methodology</h2>
 
-Data Ingestion: Loads mixed-type data (Age, Job, Euribor Rate).
-
-Clustering: Applies K-Prototypes to find 3 distinct customer personas (Engaged, Savers, Prospects).
-
-Manifold Learning: Projects the 20-dimensional feature space into 2D using t-SNE for visualization.
-
-Inference: Classifies new users into these clusters and recommends the optimal marketing strategy.
+1. Data Ingestion: Loads mixed-type data (Age, Job, Euribor Rate).
+2. Clustering: Applies K-Prototypes to find 3 distinct customer personas (Engaged, Savers, Prospects).
+3. Manifold Learning: Projects the 20-dimensional feature space into 2D using t-SNE for visualization.
+4. Inference: Classifies new users into these clusters and recommends the optimal marketing strategy.
 
 Developed for Final Year Project 2025.
