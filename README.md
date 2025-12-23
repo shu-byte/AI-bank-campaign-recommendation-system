@@ -32,11 +32,11 @@ uvicorn main:app --reload
 ```
 
 3. Setup Frontend
-
+```bash
 cd frontend
 npm install
 npm start
-
+```
 
 📂 Project Structure
 
