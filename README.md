@@ -39,7 +39,7 @@ npm start
 ```
 
 📂 Project Structure
-
+```bash
 CampaignV2/
 ├── server/                 # FastAPI Backend & ML Scripts
 │   ├── main.py             # API Endpoints
@@ -50,7 +50,7 @@ CampaignV2/
     ├── src/
     │   └── App.js          # Main UI Logic
     └── ...
-
+```
 
 <h2>📊 Methodology</h2>
 
