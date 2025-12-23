@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+kmodes
+xgboost
+shap
+fastapi
+uvicorn
+python-multipart
+openpyxl
